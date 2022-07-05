@@ -3,9 +3,6 @@ __pycache__/
 *.py[cod]
 *$py.class
 /volumes
-/backend/_static
-backend/_static
-
 # C extensions
 *.so
 .idea
@@ -119,7 +116,6 @@ venv.bak/
 
 # Rope project settings
 .ropeproject
-
 # mkdocs documentation
 /site
 

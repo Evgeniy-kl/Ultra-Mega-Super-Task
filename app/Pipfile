@@ -5,12 +5,11 @@ name = "pypi"
 
 [packages]
 fastapi = "*"
-psycopg2 = "*"
 sqlalchemy = "*"
 uvicorn = "*"
-install = "*"
 fastapi-jwt-auth = "*"
 pydantic = "*"
+psycopg2-binary = "*"
 
 [dev-packages]
 

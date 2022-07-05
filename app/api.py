@@ -1,15 +1,15 @@
 from datetime import timedelta
-
 from fastapi import Depends, FastAPI, HTTPException, Request
 from fastapi.responses import JSONResponse
 from fastapi_jwt_auth import AuthJWT
 from fastapi_jwt_auth.exceptions import AuthJWTException
 from sqlalchemy.orm import Session
-from services import UserManage
+
 from crud import get_user_by_email, create_user
 from engine import SessionLocal, engine, Base
 from schema import Settings
 from schema import User
+from services import UserManage
 
 Base.metadata.create_all(bind=engine)
 
